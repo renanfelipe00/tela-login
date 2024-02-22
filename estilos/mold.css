@@ -1,0 +1,77 @@
+@charset "UFT=8";
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    /*Para tablets*/
+    main{
+        height: 400px;
+        width: 80vw;
+    }
+    form{
+        left: 100%;
+        top: 0pc;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    p{
+        margin: 10px 0px 10px 2vw;
+    }
+    #img{
+        width: 48%;
+        height: 100%;
+    }
+    #senha, #nome{
+        margin: 6px;
+        padding: 1vh 0px;
+    }
+    span{
+        padding: 4px;
+        margin: 5px 0px 0px 2vw;
+    }
+    #Bot{
+        margin-top: 20px;
+    }
+    #Boto{
+        padding: 4px;
+        margin: 10px 0px 5px 1vw;
+        width: 90%;
+    }
+}
+@media  screen and (min-width: 1025px){
+    /*desktop para cima*/
+    #img{
+        max-width: 49%;
+        height: 100%;
+    }
+    form{
+        left: 98%;
+        top: 2pc;
+    }
+    main{
+        height: 400px;
+        width: 900px;
+        margin: 20vh auto;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    p{
+        margin: 10px 0px 10px 2vw;
+    }
+    #senha, #nome{
+        margin: 5px;
+        padding: 9px 0px;
+    }
+    apan{
+        padding: 6px;
+        margin: 5px 0px 0px 2vw;
+    }
+    #Bot{
+        margin-top: 20px;
+    }
+    #Boto{
+        padding: 7px;
+        margin: 10px 0px 5px 2vw;
+        width: 95%;
+    }
+    
+}
